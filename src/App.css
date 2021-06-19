@@ -1,5 +1,6 @@
 body {
   background-color: lightgreen;
+  width: 768px;
 }
 
 .logo {
@@ -41,8 +42,8 @@ body {
   align-items: center;
   background-color: white;
   border-radius: 15px;
-  height: 80vh;
-  width: 80vw;
+  height: 80%;
+  width: 80%;
   margin: auto;
   margin-top: 10%;
   position: relative;
@@ -172,6 +173,8 @@ body {
 }
 .longerWord {
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   overflow: scroll;
   display: flex;
   flex-direction: row;
